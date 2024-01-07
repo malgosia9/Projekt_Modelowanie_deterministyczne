@@ -24,8 +24,7 @@ class dom:
 
 
         ind_row_min = min(
-            [for tup[0] in params["indeksy_graniczne"][key]]
-        )
+            [for tup[0] in params["indeksy_graniczne"][key]])
 
         return self
 
