@@ -74,7 +74,7 @@ class dom:
     def draw_square(self, params):
         square = np.zeros((100, 100)) 
 
-        # Podział kwadratu na cztery części
+
         square[:50, :50] = params["maska"]["I"] 
         square[:50, 50:] = params["maska"]["II"] 
         square[50:, :50] = params["maska"]["III"]  
